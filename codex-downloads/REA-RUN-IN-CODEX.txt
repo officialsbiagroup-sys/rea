@@ -1,0 +1,18 @@
+Install this reviewed REA bundle for the current Windows user's local Codex,
+so the reverse-engineer-anything skill is available across new local chats.
+
+Read README.md and AGENTS.md, inspect the installer, and verify SHA256SUMS.json.
+Use the existing REA 6.7.0 installation. Run the installer dry-run first, then
+apply the narrow user-level configuration. Package installation is authorized
+only if REA is absent; install only the pinned matching REA version. Reuse custom
+or project-local installations rather than creating unnecessary duplicates.
+
+Preserve existing MCP registrations, credentials, approval policies, skills,
+global agent instructions and unrelated projects. Do not change Tableau hooks.
+Do not install Ghidra/Java or execute target binaries as part of this bundle setup.
+Preserve the client's existing approval policies.
+
+After installation, report actual changed files, backup paths, and any required
+Codex restart. Verify skill discovery and live REA MCP connectivity after restart.
+Do not claim the skill and an MCP connection are the same thing. Do not claim
+this ZIP gives a cloud chat control over a Windows terminal.
